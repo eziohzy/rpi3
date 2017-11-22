@@ -1,0 +1,4 @@
+sudo apt-get install dosfstools
+sudo apt-get install dump
+sudo apt-get install parted
+sudo apt-get install kpartx
