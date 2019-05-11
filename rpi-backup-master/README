@@ -6,6 +6,7 @@
 		
 
 		1.3 http://conanwhf.github.io/2016/08/25/rpi-cloneimg/,我就是使用这种方法做的.
+                    https://blog.csdn.net/talkxin/article/details/50456282
 
 			sudo parted $img --script -- mklabel msdos
 			sudo parted $img --script -- mkpart primary fat32 ${bootstart}s ${bootend}s
