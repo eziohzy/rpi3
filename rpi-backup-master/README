@@ -5,7 +5,7 @@
 		缺点,多大的卡就会做出多大的镜像!不环保
 		
 
-		1.3 http://conanwhf.github.io/2016/08/25/rpi-cloneimg/,我就是使用这种方法做的.
+		1.3 http://conanwhf.github.io/2016/08/25/rpi-cloneimg/（已失效）,我就是使用这种方法做的.
                     https://blog.csdn.net/talkxin/article/details/50456282
 
 			sudo parted $img --script -- mklabel msdos
@@ -45,8 +45,6 @@
 		2是使用rpi-clone:方法是先将sd card格式化成ext4,--->
 		运行rpi-clone,是否umount 选择 "y"
 				是否initliaze 选择"y"
-
-
 				针对原装带有系统的内存卡:
 				-->删除:fdisk /dev/sda
 					m
@@ -58,7 +56,7 @@
 				新建分区:	sudo mkfs.ext4 /dev/sda
 
 
-如何批量还原?
+                3.使用fdisk工具
 
 
 
